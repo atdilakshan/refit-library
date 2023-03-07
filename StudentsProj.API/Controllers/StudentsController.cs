@@ -21,6 +21,5 @@ namespace StudentsProj.API.Controllers
             var students = await studentsRepository.GetAllAsync();
             return Ok(students);
         }
-
     }
 }
